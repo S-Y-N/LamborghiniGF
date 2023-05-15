@@ -1,0 +1,108 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/fonts.css";
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    color: #040404;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px;
+    padding-top: 25px;
+}
+
+.menu-link {
+    font-size: 16px;
+    color: #363636;
+}
+
+.menu-left {
+    padding-left: 25px;
+}
+
+.menu-right {
+    padding-right: 86px;
+}
+
+
+
+.promo {
+    background-image: url(../img/Labma.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.promo__inner {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.promo__title {
+    font-size: 76px;
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    margin-bottom: 10px;
+}
+
+.promo__subtitle {
+    font-size: 48px;
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #040404;
+    align-self: center;
+}
+
+.promo__subtitle span {
+    display: block;
+    font-size: 34px;
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    color: #9F6B08;
+    padding: 10px 0;
+}
+
+.promo__text {
+    font-size: 16px;
+    color: #363636;
+    margin-bottom: 10px;
+}
+
+.promo__arrow {
+    margin-top: auto;
+    margin-bottom: 30px;
+    align-self: center;
+}
